@@ -58,12 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	function btnrightArrow() {
 		changement ++
 		if (changement >= slides.length){changement = 0}
-		/*if (changement < slides.length - 1 ) {
-			changement++
-		} else {
-			changement = 0
-		}*/
-
 		replaceImage(changement)
 		changementDots(changement)
 	}
